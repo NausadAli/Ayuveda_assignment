@@ -1,0 +1,67 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   background: #c09595;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.images_gallery{
+   /* border: solid 2px white; */
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   width: 80vw;
+}
+h3{
+   color: rgb(255, 255, 255);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 20px;
+   text-align: start;
+}
+
+.img-box {
+   height: 500px;
+   /* transform: scale(1); */
+   transition:width 0.4s ease-in-out, transform 0.1s ease-out;
+}
+.img-box:nth-child(1){
+   width: 20vw;
+   background: url(/assests/enrgy.jpg);
+   border-radius: 20px 0 0 20px;
+   background-position: center;
+   background-size: cover;
+}
+.img-box:nth-child(2){
+   width: 20vw;
+   background: url(/assests/strength.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.img-box:nth-child(3){
+   width: 20vw;
+   background: url(/assests/calm.jpg);
+   border-radius: 0 20px 20px 0;
+
+   background-position: center;
+   background-size: cover;
+}
+
+.img-box.active {
+   width: 40vw;
+}
+
+
+.img-box:hover{
+   width: 40vw;
+   transform: scale(1.02);
+   /* transform: scale(1); */
+}
+
