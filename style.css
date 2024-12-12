@@ -33,21 +33,21 @@ h3{
 }
 .img-box:nth-child(1){
    width: 20vw;
-   background: url(/assests/enrgy.jpg);
+   background: url(/assets/enrgy.jpg);
    border-radius: 20px 0 0 20px;
    background-position: center;
    background-size: cover;
 }
 .img-box:nth-child(2){
    width: 20vw;
-   background: url(/assests/strength.jpg);
+   background: url(/assets/strength.jpg);
    background-position: center;
    background-size: cover;
 }
 
 .img-box:nth-child(3){
    width: 20vw;
-   background: url(/assests/calm.jpg);
+   background: url(/assets/calm.jpg);
    border-radius: 0 20px 20px 0;
 
    background-position: center;
